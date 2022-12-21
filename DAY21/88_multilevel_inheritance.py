@@ -25,7 +25,7 @@ class Programmer(Employee):
 
     def getSalary(self):
         print("No salary to programmers")
-        
+         
     def takeBreak(self):
         print("I m employee, I m breathing ++")
 
@@ -38,3 +38,6 @@ ram.takeBreak()
 sita.takeBreak()
 
 nana.takeBreak()
+
+
+
