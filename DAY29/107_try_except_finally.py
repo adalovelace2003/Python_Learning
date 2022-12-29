@@ -4,9 +4,12 @@ try:
     c = 1/i
 except Exception as e:
     print(e)
-    exit(0)
+    exit()
 else:
     print("We were successful")
 
-finally:    # this will even print if the program is even exited like above in except()
+finally:    # this will even print if the program is even exited like above in except()  
+    # Finally executes regardless of error 
     print("We are done! ")
+    
+ 
