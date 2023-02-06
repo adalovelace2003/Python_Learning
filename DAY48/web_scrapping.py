@@ -8,3 +8,5 @@ all = soup.find_all("h3", {"class" : "country-name"})
 
 for index, item in enumerate(all):
     print(f"{index}.  {item.text.strip()}")
+    
+    
