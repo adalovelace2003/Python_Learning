@@ -1,0 +1,529 @@
+1675746553779	geckodriver	INFO	Listening on 127.0.0.1:39061
+1675746554379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9YIrj9"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746558549	Marionette	INFO	Marionette enabled
+1675746558563	Marionette	INFO	Listening on port 45731
+WebDriver BiDi listening on ws://localhost:40217
+Read port: 45731
+1675746559046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9YIrj9/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40217/devtools/browser/82d4a737-45ee-448f-9b36-0603bdb73925
+1675746568739	Marionette	INFO	Stopped listening on port 45731
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675746693925	geckodriver	INFO	Listening on 127.0.0.1:40857
+1675746694506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37193" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesIPqqw"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746696906	Marionette	INFO	Marionette enabled
+1675746696919	Marionette	INFO	Listening on port 42621
+WebDriver BiDi listening on ws://localhost:37193
+Read port: 42621
+1675746697636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesIPqqw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:37193/devtools/browser/bbb0d672-fd48-4a3c-a9ea-f66e852005a6
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+1675746730097	Marionette	INFO	Stopped listening on port 42621
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675746739937	geckodriver	INFO	Listening on 127.0.0.1:44229
+1675746740177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledeLb3l"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746744399	Marionette	INFO	Marionette enabled
+1675746744412	Marionette	INFO	Listening on port 44067
+Read port: 44067
+WebDriver BiDi listening on ws://localhost:36399
+1675746745298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledeLb3l/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36399/devtools/browser/51237e9f-685e-452a-8ea9-1f6b79ef5ff4
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1675746807491	geckodriver	INFO	Listening on 127.0.0.1:41997
+1675746808046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34387" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemtNxsc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746810636	Marionette	INFO	Marionette enabled
+1675746810651	Marionette	INFO	Listening on port 35343
+Read port: 35343
+WebDriver BiDi listening on ws://localhost:34387
+1675746811266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemtNxsc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34387/devtools/browser/d72202b8-400e-4696-97ea-5df27d0d7231
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675746848957	Marionette	INFO	Stopped listening on port 35343
+1675746851822	geckodriver	INFO	Listening on 127.0.0.1:42821
+1675746851999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileanIr9P"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746854437	Marionette	INFO	Marionette enabled
+1675746854449	Marionette	INFO	Listening on port 39249
+WebDriver BiDi listening on ws://localhost:42933
+Read port: 39249
+1675746854847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileanIr9P/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42933/devtools/browser/df972eef-08a5-4040-819e-d3ad9b5c2d43
+1675746864296	Marionette	INFO	Stopped listening on port 39249
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675746972052	geckodriver	INFO	Listening on 127.0.0.1:58129
+1675746972723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilez2OJ1S"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675746975298	Marionette	INFO	Marionette enabled
+1675746975311	Marionette	INFO	Listening on port 40815
+WebDriver BiDi listening on ws://localhost:46307
+Read port: 40815
+1675746976179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez2OJ1S/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46307/devtools/browser/26a425d8-b18f-4bb8-aaa7-9d5d75e07ff3
+1675746986475	Marionette	INFO	Stopped listening on port 40815
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747106449	geckodriver	INFO	Listening on 127.0.0.1:52811
+1675747107006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6HNjTc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747109545	Marionette	INFO	Marionette enabled
+1675747109558	Marionette	INFO	Listening on port 36221
+WebDriver BiDi listening on ws://localhost:55533
+Read port: 36221
+1675747110464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6HNjTc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55533/devtools/browser/e8cf762a-9467-43bd-a28b-d557432e305a
+1675747141556	Marionette	INFO	Stopped listening on port 36221
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747193492	geckodriver	INFO	Listening on 127.0.0.1:58405
+1675747194176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilex7o184"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747196881	Marionette	INFO	Marionette enabled
+1675747196893	Marionette	INFO	Listening on port 41879
+Read port: 41879
+WebDriver BiDi listening on ws://localhost:51643
+1675747197541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex7o184/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747204916	Marionette	INFO	Stopped listening on port 41879
+1675747204995	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+Exiting due to channel error.
+Exiting due to channel error.
+1675747224830	geckodriver	INFO	Listening on 127.0.0.1:54083
+1675747225415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWcUHBu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747227949	Marionette	INFO	Marionette enabled
+1675747227961	Marionette	INFO	Listening on port 39305
+WebDriver BiDi listening on ws://localhost:35493
+Read port: 39305
+1675747228551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWcUHBu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35493/devtools/browser/fe9a524f-5da6-4d51-b430-29c680585e35
+1675747263243	Marionette	INFO	Stopped listening on port 39305
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747382685	geckodriver	INFO	Listening on 127.0.0.1:48787
+1675747382885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePUyjRI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747385267	Marionette	INFO	Marionette enabled
+1675747385280	Marionette	INFO	Listening on port 42435
+WebDriver BiDi listening on ws://localhost:52083
+Read port: 42435
+1675747385944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePUyjRI/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52083/devtools/browser/42643aac-d577-4180-a1e0-352d9def119f
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747398347	Marionette	INFO	Stopped listening on port 42435
+1675747476997	geckodriver	INFO	Listening on 127.0.0.1:57073
+1675747477560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepeF2wy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747479835	Marionette	INFO	Marionette enabled
+1675747479849	Marionette	INFO	Listening on port 37729
+WebDriver BiDi listening on ws://localhost:59799
+Read port: 37729
+1675747480783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepeF2wy/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59799/devtools/browser/4646b52f-1531-4eac-9df4-a869198852ac
+1675747503609	Marionette	INFO	Stopped listening on port 37729
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747558898	geckodriver	INFO	Listening on 127.0.0.1:44621
+1675747559506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGKo6gX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747561708	Marionette	INFO	Marionette enabled
+1675747561747	Marionette	INFO	Listening on port 45657
+WebDriver BiDi listening on ws://localhost:41301
+Read port: 45657
+1675747562488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGKo6gX/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41301/devtools/browser/5a192a7b-004d-42b5-80c3-7b82c0e35031
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+1675747594563	Marionette	INFO	Stopped listening on port 45657
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileGKo6gX/protections.sqlite
+1675747669294	geckodriver	INFO	Listening on 127.0.0.1:56813
+1675747669889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilex0WoyP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747672379	Marionette	INFO	Marionette enabled
+1675747672399	Marionette	INFO	Listening on port 39311
+WebDriver BiDi listening on ws://localhost:41057
+Read port: 39311
+1675747672814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex0WoyP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41057/devtools/browser/77407187-54e5-4eac-b348-979c4db1882b
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675747718191	Marionette	INFO	Stopped listening on port 39311
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747772097	geckodriver	INFO	Listening on 127.0.0.1:51335
+1675747772713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledxrUGj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747775172	Marionette	INFO	Marionette enabled
+1675747775185	Marionette	INFO	Listening on port 35379
+WebDriver BiDi listening on ws://localhost:38427
+Read port: 35379
+1675747775638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledxrUGj/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38427/devtools/browser/0aa9ce7d-ffc1-449d-bb76-5b88beb28f6f
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675747823792	Marionette	INFO	Stopped listening on port 35379
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675747865776	geckodriver	INFO	Listening on 127.0.0.1:48391
+1675747866333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLPQq04"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675747869071	Marionette	INFO	Marionette enabled
+1675747869084	Marionette	INFO	Listening on port 45175
+WebDriver BiDi listening on ws://localhost:51701
+Read port: 45175
+1675747869620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLPQq04/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51701/devtools/browser/e3586f03-e519-4d42-9f8e-507565f5a8ee
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675748746684	geckodriver	INFO	Listening on 127.0.0.1:54151
+1675748747259	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42955" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevlif5R"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675748749929	Marionette	INFO	Marionette enabled
+1675748749942	Marionette	INFO	Listening on port 35237
+WebDriver BiDi listening on ws://localhost:42955
+Read port: 35237
+1675748750535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevlif5R/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42955/devtools/browser/01728b31-d422-4af0-8b65-eedcd7d02606
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675748789518	Marionette	INFO	Stopped listening on port 35237
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675749038735	geckodriver	INFO	Listening on 127.0.0.1:46631
+1675749039030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegeZlo5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749046593	Marionette	INFO	Marionette enabled
+1675749046666	Marionette	INFO	Listening on port 42861
+Read port: 42861
+WebDriver BiDi listening on ws://localhost:41615
+Read port: 42861
+1675749048914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegeZlo5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41615/devtools/browser/f42b7f9b-6601-4649-ae9b-cb3322e3d6a2
+1675749070965	Marionette	INFO	Stopped listening on port 42861
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+1675749157569	geckodriver	INFO	Listening on 127.0.0.1:58481
+1675749158127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQ0BX1r"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749161097	Marionette	INFO	Marionette enabled
+1675749161110	Marionette	INFO	Listening on port 46473
+WebDriver BiDi listening on ws://localhost:43973
+Read port: 46473
+1675749161646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ0BX1r/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43973/devtools/browser/3f1d357b-dad5-4a79-b0a0-485bdc1f3392
+1675749174462	Marionette	INFO	Stopped listening on port 46473
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675749343526	geckodriver	INFO	Listening on 127.0.0.1:40251
+1675749344110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZ0PsaQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749346552	Marionette	INFO	Marionette enabled
+1675749346568	Marionette	INFO	Listening on port 35149
+WebDriver BiDi listening on ws://localhost:32885
+Read port: 35149
+1675749346995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ0PsaQ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:32885/devtools/browser/960666de-5457-4f07-854d-a994e562a094
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675749359600	Marionette	INFO	Stopped listening on port 35149
+1675749383461	geckodriver	INFO	Listening on 127.0.0.1:34461
+1675749384020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9tWOwJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749386477	Marionette	INFO	Marionette enabled
+1675749386489	Marionette	INFO	Listening on port 41317
+WebDriver BiDi listening on ws://localhost:41397
+Read port: 41317
+1675749386940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9tWOwJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41397/devtools/browser/c5e7c2c0-4a81-48ac-aa3b-3511e6ec72c6
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675749473734	geckodriver	INFO	Listening on 127.0.0.1:55731
+1675749474331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIBLs3y"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749477005	Marionette	INFO	Marionette enabled
+1675749477018	Marionette	INFO	Listening on port 33483
+WebDriver BiDi listening on ws://localhost:36397
+Read port: 33483
+1675749477521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIBLs3y/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36397/devtools/browser/04389792-213f-4209-ac98-103e896b80ed
+1675749637172	geckodriver	INFO	Listening on 127.0.0.1:56293
+1675749637736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledrG48Q"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749640705	Marionette	INFO	Marionette enabled
+1675749640719	Marionette	INFO	Listening on port 45287
+WebDriver BiDi listening on ws://localhost:47985
+Read port: 45287
+1675749641160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledrG48Q/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47985/devtools/browser/16755475-aec2-4f87-9248-bbc05d8fdb55
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675749657595	Marionette	INFO	Stopped listening on port 45287
+1675749899604	geckodriver	INFO	Listening on 127.0.0.1:51971
+1675749900312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBquyGz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675749904030	Marionette	INFO	Marionette enabled
+1675749904058	Marionette	INFO	Listening on port 42469
+WebDriver BiDi listening on ws://localhost:46071
+Read port: 42469
+1675749904688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBquyGz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46071/devtools/browser/87992a39-54e8-466a-baa2-11b80e7f384a
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675750049408	Marionette	INFO	Stopped listening on port 42469
+1675751084515	geckodriver	INFO	Listening on 127.0.0.1:49985
+1675751085215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile284qJC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675751088635	Marionette	INFO	Marionette enabled
+1675751088662	Marionette	INFO	Listening on port 43391
+WebDriver BiDi listening on ws://localhost:34583
+Read port: 43391
+1675751089211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile284qJC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34583/devtools/browser/e61f4cff-bafa-4d14-9566-12461b9bd7ac
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675751101217	Marionette	INFO	Stopped listening on port 43391
+1675751121519	geckodriver	INFO	Listening on 127.0.0.1:46573
+1675751122154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTKg0Ct"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675751125765	Marionette	INFO	Marionette enabled
+1675751125783	Marionette	INFO	Listening on port 41707
+Read port: 41707
+WebDriver BiDi listening on ws://localhost:47283
+1675751126403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTKg0Ct/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47283/devtools/browser/c7a98389-0d06-458b-800f-d0cd60c4d8ed
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1631: Error: permitUnload is already running for this tab.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675751207615	Marionette	INFO	Stopped listening on port 41707
+JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 180: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1675751441265	geckodriver	INFO	Listening on 127.0.0.1:42851
+1675751441986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9At1wB"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675751444791	Marionette	INFO	Marionette enabled
+1675751444803	Marionette	INFO	Listening on port 35337
+WebDriver BiDi listening on ws://localhost:56967
+Read port: 35337
+1675751445380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9At1wB/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56967/devtools/browser/1a408025-94f3-4ba4-a2c7-c888f2e8d332
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+1675751474574	Marionette	INFO	Stopped listening on port 35337
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile9At1wB/protections.sqlite
+1675751524386	geckodriver	INFO	Listening on 127.0.0.1:50363
+1675751525019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileORxhrD"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675751528911	Marionette	INFO	Marionette enabled
+1675751528923	Marionette	INFO	Listening on port 33803
+Read port: 33803
+WebDriver BiDi listening on ws://localhost:58905
+1675751529467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileORxhrD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58905/devtools/browser/8c304c69-6915-4276-872d-edbc43b579f1
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+JavaScript warning: https://widget.botcopy.com/static/js/master.js, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL (FEATURE_FAILURE_EGL_NO_CONFIG)
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://r.bing.com/rp/KWq3LekLX0_XGaoNbmcAB0p1vqs.br.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675751561060	Marionette	INFO	Stopped listening on port 33803
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
