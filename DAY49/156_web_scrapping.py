@@ -6,7 +6,7 @@ c = r.content
 soup = BeautifulSoup(c,"html.parser")
 all = soup.find_all("div",{"class" :"infinite-item"})
 
-for index,item in enumerate(all):
+for index,item in enumerate(all[-1]):
     price = item.find_all("a",{"class":"listing-price"})
     address = item.find_all("div",{"class":"property-address-info"}) 
     area = item.find_all("div",{"class":"property-sqft"}) 
@@ -15,28 +15,10 @@ for index,item in enumerate(all):
     halfBaths = item.find_all("div",{"class":"property-half-baths"}) 
     
     print(f"****({index+1})****")
-    try:
-        print("Price      : "+   price[0].text.strip())
-    except:
-        print("Price      : Not Specified")
-    try:    
-        print("Address    : "+   address[0].text.strip().replace('\n',' ').replace('                           ',' || '))
-    except:
-        print("Address    : Not Specified")
-    try:
-        print("Area       : "+   area[0].text.replace(". ",".").replace("\n",""))
-    except:
-        print("Area       : Not Specified")
-    try:
-        print("Bed        : "+   bed[0].text.strip())
-    except:
-        print("Bed        : Not Specified")
-    try:
-        print("Baths      : "+   baths[0].text.strip())
-    except:
-        print("Baths      : Not Specified")
-    try:
-        print("Half Baths : "+   halfBaths[0].text.strip())
-    except:
-        print("Half Baths : Not Specified ")
-    print("\n\n")
+    
+    print("Price      : " + (price[0].text.strip() if price else "Not Specified "))
+    print("Address    : " + (address[0].text.strip().replace('\n',' ').replace('                           ',' || ') if address else "Not Specified "))
+    print("Area       : " + (area[0].text.strip().replace(". ",".").replace("\n","") if area else "Not Specified "))
+    print("Bed        : " + (bed[0].text.strip() if bed else "Not Specified "))
+    print("Baths      : " + (baths[0].text.strip() if baths else "Not Specified "))
+    print("Half_Baths : " + (halfBaths[0].text.strip() if halfBaths  else "Not Specified " ) + "\n\n")
