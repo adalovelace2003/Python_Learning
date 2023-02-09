@@ -2,8 +2,7 @@ import requests
 import pandas
 from bs4 import BeautifulSoup
 
-r = requests.get(
-    'https://www.century21.com/real-estate/new-york-ny/LCNYNEWYORK/')
+r = requests.get('https://www.century21.com/real-estate/new-york-ny/LCNYNEWYORK/')
 c = r.content
 soup = BeautifulSoup(c, "html.parser")
 all = soup.find_all("div", {"class": "infinite-item"})
@@ -21,8 +20,6 @@ for index, item in enumerate(all):
     baths = item.find_all("div", {"class": "property-baths"})
     halfBaths = item.find_all("div", {"class": "property-half-baths"})
 
-    
-
     d["price"] = price[0].text.strip() if price else "N/A"
     d["address"] = address[0].text.strip().replace("\n"," ").replace("                           "," , ") if address else "N/A"
     d["area"] = area[0].text.strip().replace(". ", ".").replace("\n", "") if area else "N/A"
@@ -34,3 +31,4 @@ for index, item in enumerate(all):
 
 df = pandas.DataFrame(l)
 df.to_csv("Output.csv")
+
