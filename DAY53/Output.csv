@@ -1,25 +1,625 @@
 ,team_name,year,wins,losses,otLosses,pct,gf,ga,diff
-0,Calgary Flames,1991,31,37,,0.388,296,305,-9
-1,Calgary Flames,1991,31,37,,0.388,296,305,-9
-2,Calgary Flames,1991,31,37,,0.388,296,305,-9
-3,Calgary Flames,1991,31,37,,0.388,296,305,-9
-4,Calgary Flames,1991,31,37,,0.388,296,305,-9
-5,Calgary Flames,1991,31,37,,0.388,296,305,-9
-6,Calgary Flames,1991,31,37,,0.388,296,305,-9
-7,Calgary Flames,1991,31,37,,0.388,296,305,-9
-8,Calgary Flames,1991,31,37,,0.388,296,305,-9
-9,Calgary Flames,1991,31,37,,0.388,296,305,-9
-10,Calgary Flames,1991,31,37,,0.388,296,305,-9
-11,Calgary Flames,1991,31,37,,0.388,296,305,-9
-12,Calgary Flames,1991,31,37,,0.388,296,305,-9
-13,Calgary Flames,1991,31,37,,0.388,296,305,-9
-14,Calgary Flames,1991,31,37,,0.388,296,305,-9
-15,Calgary Flames,1991,31,37,,0.388,296,305,-9
-16,Calgary Flames,1991,31,37,,0.388,296,305,-9
-17,Calgary Flames,1991,31,37,,0.388,296,305,-9
-18,Calgary Flames,1991,31,37,,0.388,296,305,-9
-19,Calgary Flames,1991,31,37,,0.388,296,305,-9
-20,Calgary Flames,1991,31,37,,0.388,296,305,-9
-21,Calgary Flames,1991,31,37,,0.388,296,305,-9
-22,Calgary Flames,1991,31,37,,0.388,296,305,-9
-23,Calgary Flames,1991,31,37,,0.388,296,305,-9
+0,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+1,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+2,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+3,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+4,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+5,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+6,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+7,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+8,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+9,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+10,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+11,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+12,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+13,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+14,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+15,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+16,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+17,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+18,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+19,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+20,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+21,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+22,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+23,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+24,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+25,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+26,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+27,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+28,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+29,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+30,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+31,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+32,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+33,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+34,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+35,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+36,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+37,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+38,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+39,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+40,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+41,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+42,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+43,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+44,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+45,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+46,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+47,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+48,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+49,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+50,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+51,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+52,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+53,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+54,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+55,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+56,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+57,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+58,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+59,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+60,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+61,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+62,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+63,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+64,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+65,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+66,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+67,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+68,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+69,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+70,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+71,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+72,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+73,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+74,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+75,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+76,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+77,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+78,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+79,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+80,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+81,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+82,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+83,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+84,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+85,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+86,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+87,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+88,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+89,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+90,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+91,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+92,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+93,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+94,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+95,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+96,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+97,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+98,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+99,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+100,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+101,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+102,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+103,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+104,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+105,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+106,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+107,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+108,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+109,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+110,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+111,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+112,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+113,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+114,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+115,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+116,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+117,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+118,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+119,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+120,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+121,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+122,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+123,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+124,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+125,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+126,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+127,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+128,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+129,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+130,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+131,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+132,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+133,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+134,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+135,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+136,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+137,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+138,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+139,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+140,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+141,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+142,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+143,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+144,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+145,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+146,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+147,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+148,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+149,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+150,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+151,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+152,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+153,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+154,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+155,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+156,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+157,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+158,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+159,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+160,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+161,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+162,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+163,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+164,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+165,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+166,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+167,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+168,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+169,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+170,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+171,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+172,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+173,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+174,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+175,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+176,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+177,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+178,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+179,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+180,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+181,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+182,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+183,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+184,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+185,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+186,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+187,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+188,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+189,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+190,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+191,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+192,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+193,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+194,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+195,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+196,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+197,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+198,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+199,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+200,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+201,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+202,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+203,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+204,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+205,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+206,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+207,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+208,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+209,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+210,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+211,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+212,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+213,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+214,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+215,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+216,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+217,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+218,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+219,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+220,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+221,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+222,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+223,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+224,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+225,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+226,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+227,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+228,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+229,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+230,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+231,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+232,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+233,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+234,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+235,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+236,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+237,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+238,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+239,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+240,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+241,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+242,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+243,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+244,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+245,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+246,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+247,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+248,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+249,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+250,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+251,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+252,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+253,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+254,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+255,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+256,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+257,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+258,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+259,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+260,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+261,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+262,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+263,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+264,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+265,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+266,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+267,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+268,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+269,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+270,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+271,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+272,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+273,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+274,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+275,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+276,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+277,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+278,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+279,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+280,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+281,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+282,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+283,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+284,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+285,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+286,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+287,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+288,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+289,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+290,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+291,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+292,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+293,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+294,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+295,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+296,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+297,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+298,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+299,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+300,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+301,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+302,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+303,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+304,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+305,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+306,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+307,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+308,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+309,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+310,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+311,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+312,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+313,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+314,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+315,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+316,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+317,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+318,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+319,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+320,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+321,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+322,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+323,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+324,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+325,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+326,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+327,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+328,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+329,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+330,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+331,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+332,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+333,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+334,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+335,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+336,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+337,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+338,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+339,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+340,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+341,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+342,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+343,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+344,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+345,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+346,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+347,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+348,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+349,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+350,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+351,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+352,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+353,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+354,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+355,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+356,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+357,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+358,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+359,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+360,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+361,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+362,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+363,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+364,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+365,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+366,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+367,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+368,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+369,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+370,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+371,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+372,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+373,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+374,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+375,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+376,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+377,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+378,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+379,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+380,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+381,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+382,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+383,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+384,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+385,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+386,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+387,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+388,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+389,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+390,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+391,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+392,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+393,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+394,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+395,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+396,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+397,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+398,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+399,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+400,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+401,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+402,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+403,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+404,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+405,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+406,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+407,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+408,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+409,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+410,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+411,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+412,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+413,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+414,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+415,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+416,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+417,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+418,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+419,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+420,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+421,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+422,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+423,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+424,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+425,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+426,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+427,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+428,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+429,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+430,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+431,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+432,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+433,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+434,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+435,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+436,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+437,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+438,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+439,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+440,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+441,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+442,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+443,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+444,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+445,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+446,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+447,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+448,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+449,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+450,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+451,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+452,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+453,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+454,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+455,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+456,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+457,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+458,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+459,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+460,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+461,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+462,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+463,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+464,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+465,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+466,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+467,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+468,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+469,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+470,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+471,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+472,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+473,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+474,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+475,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+476,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+477,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+478,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+479,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+480,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+481,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+482,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+483,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+484,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+485,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+486,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+487,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+488,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+489,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+490,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+491,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+492,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+493,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+494,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+495,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+496,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+497,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+498,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+499,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+500,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+501,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+502,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+503,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+504,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+505,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+506,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+507,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+508,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+509,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+510,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+511,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+512,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+513,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+514,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+515,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+516,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+517,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+518,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+519,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+520,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+521,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+522,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+523,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+524,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+525,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+526,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+527,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+528,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+529,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+530,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+531,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+532,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+533,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+534,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+535,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+536,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+537,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+538,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+539,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+540,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+541,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+542,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+543,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+544,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+545,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+546,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+547,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+548,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+549,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+550,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+551,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+552,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+553,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+554,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+555,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+556,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+557,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+558,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+559,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+560,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+561,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+562,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+563,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+564,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+565,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+566,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+567,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+568,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+569,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+570,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+571,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+572,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+573,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+574,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+575,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+576,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+577,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+578,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+579,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+580,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+581,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+582,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+583,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+584,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+585,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+586,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+587,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+588,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+589,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+590,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+591,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+592,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+593,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+594,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+595,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+596,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+597,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+598,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9
+599,Chicago Blackhawks,1991,36,29,N/A,0.45,257,236,21
+600,Boston Bruins,1990,44,24,N/A,0.55,299,264,35
+601,Buffalo Sabres,1990,31,30,N/A,0.388,292,278,14
+602,Calgary Flames,1990,46,26,N/A,0.575,344,263,81
+603,Chicago Blackhawks,1990,49,23,N/A,0.613,284,211,73
+604,Detroit Red Wings,1990,34,38,N/A,0.425,273,298,-25
+605,Edmonton Oilers,1990,37,37,N/A,0.463,272,272,0
+606,Hartford Whalers,1990,31,38,N/A,0.388,238,276,-38
+607,Los Angeles Kings,1990,46,24,N/A,0.575,340,254,86
+608,Minnesota North Stars,1990,27,39,N/A,0.338,256,266,-10
+609,Montreal Canadiens,1990,39,30,N/A,0.487,273,249,24
+610,New Jersey Devils,1990,32,33,N/A,0.4,272,264,8
+611,New York Islanders,1990,25,45,N/A,0.312,223,290,-67
+612,New York Rangers,1990,36,31,N/A,0.45,297,265,32
+613,Philadelphia Flyers,1990,33,37,N/A,0.412,252,267,-15
+614,Pittsburgh Penguins,1990,41,33,N/A,0.512,342,305,37
+615,Quebec Nordiques,1990,16,50,N/A,0.2,236,354,-118
+616,St. Louis Blues,1990,47,22,N/A,0.588,310,250,60
+617,Toronto Maple Leafs,1990,23,46,N/A,0.287,241,318,-77
+618,Vancouver Canucks,1990,28,43,N/A,0.35,243,315,-72
+619,Washington Capitals,1990,37,36,N/A,0.463,258,258,0
+620,Winnipeg Jets,1990,26,43,N/A,0.325,260,288,-28
+621,Boston Bruins,1991,36,32,N/A,0.45,270,275,-5
+622,Buffalo Sabres,1991,31,37,N/A,0.388,289,299,-10
+623,Calgary Flames,1991,31,37,N/A,0.388,296,305,-9

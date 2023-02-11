@@ -22,8 +22,8 @@ for i in range(2,8):
     
     
 l=[]
-d = {}
 for index, item in enumerate(All[:-1]):
+    d = {}
     price = item.find_all("a", {"class": "listing-price"})
     address = item.find_all("div", {"class": "property-address-info"})
     area = item.find_all("div", {"class": "property-sqft"})

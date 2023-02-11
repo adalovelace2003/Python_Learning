@@ -6,17 +6,19 @@ base_url = "https://www.scrapethissite.com/pages/forms/"
 soup = BeautifulSoup(requests.get(base_url).content, "html.parser")
 All = soup.find_all("tr", {"class": "team"})
 
-All_array = [1,2]
+for i in range(1,25):
+    url = base_url + "?page_num="+ str(i)
+    soup = BeautifulSoup(requests.get(base_url).content, "html.parser")
+    All += soup.find_all("tr", {"class": "team"})
+    
 l = []
-d = {}
-for index, item in enumerate(All_array):
-# for index, item in enumerate(All[:-1]):
+for index, item in enumerate(All[:-1]):
+    d = {}
     team_name = All[index].find_all("td", {"class": "name"})
-    # print(index,team_name[0].text.strip())
     year = All[index].find_all("td", {"class": "year"})
     wins = All[index].find_all("td", {"class": "wins"})
     losses = All[index].find_all("td", {"class": "losses"})
-    otLosses = All[index].find_all("td", {"class": "ot-losses"})
+    otLosses = All[index].find_all("td", {"class": "otXlosses"})
     pct = All[index].find_all("td", {"class": "pct"})
     gf = All[index].find_all("td", {"class": "gf"})
     ga = All[index].find_all("td", {"class": "ga"})
@@ -32,10 +34,8 @@ for index, item in enumerate(All_array):
     d["ga"] = ga[0].text.strip() if ga else "N/A"
     d["diff"] = diff[0].text.strip() if diff else "N/A"
 
-    print(d)
     l.append(d)
 
 df = pandas.DataFrame(l)
-# print(l)
-# df.to_csv("DAY53/Output.csv")
-# print(All[0])
+df.to_csv("DAY53/Output.csv")
+
