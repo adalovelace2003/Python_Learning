@@ -10,9 +10,9 @@ driver.maximize_window()
 
 driver.find_element(By.CLASS_NAME,"gLFyf").send_keys("Ada Lovelace" + Keys.ENTER)
 
-
-
 time.sleep(10)
 # input()
 
-driver.quit()
+driver.quit();
+
+
